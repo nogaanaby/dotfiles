@@ -184,7 +184,6 @@ set winminheight=5
 set winheight=999
 " }}}
 
-
 "----------------------"
 " Indentation & Wrap {{{
 "----------------------"
