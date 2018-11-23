@@ -280,8 +280,8 @@ Bundle 'gmarik/vundle'
 "---------------------------"
 
 " Neat theme
-Bundle 'dracula/vim'
-color dracula
+Bundle 'tokyo-metro/vim'
+color tokyo-metro
 
 Bundle 'tobyS/vmustache'
 Bundle 'evidens/vim-twig'
