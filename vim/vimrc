@@ -388,3 +388,6 @@ if filereadable(expand('$VIMHOME/.vimrc.local'))
   source $VIMHOME/.vimrc.local
 endif
 
+ilet @a=0i(999, 'Closed',
+ilet @q=@af,a'f,i'lli'f,i'f,f,a'f,i'f,f,f,f,a'f,i'
+ilet @n=@qf,f,f,f,f,aREPLACE('$A',' ','')),j
