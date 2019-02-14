@@ -132,5 +132,7 @@ Edit `~/.ssh/authorized_keys` and insert your remote PC public SSH key there wit
 
 
 git clone https://github.com/vim-airline/vim-airline ~/.vim/bundle/vim-airline
+
 git clone https://github.com/vim-airline/vim-airline-themes ~/.vim/bundle/vim-airline-themes
+
 git clone https://github.com/koirand/tokyo-metro.vim
