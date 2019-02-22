@@ -10,13 +10,13 @@ Install ZSH and OH-MY-ZSH (make sure to switch your default shell to ZSH using
 software at your own risk.
 
 ``` html
-curl -L https://github.com/sergeylukin/dotfiles/raw/master/tools/install.sh | sh
+curl -L https://github.com/nogaanaby/dotfiles/raw/master/tools/install.sh | sh
 ```
 
 or
 
 ``` html
-wget --no-check-certificate https://github.com/sergeylukin/dotfiles/raw/master/tools/install.sh -O - | sh
+wget --no-check-certificate https://github.com/nogaanaby/dotfiles/raw/master/tools/install.sh -O - | sh
 ```
 
 Installation script installs only dotfiles for the components that are installed on
@@ -117,6 +117,7 @@ passwd: all authentication tokens updated successfully.
 # curl -L https://github.com/sergeylukin/dotfiles/raw/master/tools/install.sh | sh
 ```
 
+
 Edit ~/.gitconfig and enter proper name and email in relevant fields.
 
 Open `vim` and run `:BundleInstall`
@@ -127,3 +128,11 @@ Open `vim` and run `:BundleInstall`
 
 Edit `~/.ssh/authorized_keys` and insert your remote PC public SSH key there without line breaks
 
+
+
+
+git clone https://github.com/vim-airline/vim-airline ~/.vim/bundle/vim-airline
+
+git clone https://github.com/vim-airline/vim-airline-themes ~/.vim/bundle/vim-airline-themes
+
+git clone https://github.com/koirand/tokyo-metro.vim
