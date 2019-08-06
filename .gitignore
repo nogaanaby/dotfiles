@@ -19,3 +19,9 @@ Thumbs.db
 *~
 # Generic files not to ignore
 !.gitkeep
+
+#repositories
+vim/bundle/tokyo-metro.vim
+vim/bundle/vim-airline
+vim/bundle/vim-airline-themes
+
