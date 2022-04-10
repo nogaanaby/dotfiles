@@ -51,3 +51,4 @@ if [ -s "$reminder_file" ] ; then
   cat "$reminder_file"
 fi
 
+alias home='explorer.exe .'
