@@ -14,7 +14,7 @@ curl -L https://github.com/nogaanaby/dotfiles/raw/master/tools/install.sh | sh
 ```
 
 or
-
+this one should work automatically on ubuntu
 ``` html
 wget --no-check-certificate https://github.com/nogaanaby/dotfiles/raw/master/tools/install.sh -O - | sh
 ```
