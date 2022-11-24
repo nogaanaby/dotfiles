@@ -154,3 +154,11 @@ Ctrl+b o Go to the next pane
 Ctrl+b ; Toggle between the current and previous pane  
 Ctrl+b x Close the current pane  
 ```
+
+
+now, if you want
+
+
+
+
+install python:
