@@ -18,7 +18,7 @@ then
   echo "TensorFlow is already installed"
 else
   echo "Installing TensorFlow"
-  pip install tensorflow
+  pip install tensorflow tensorflow-probability
   echo "...done"
 fi
 
