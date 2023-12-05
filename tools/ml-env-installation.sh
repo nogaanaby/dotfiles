@@ -50,3 +50,26 @@ else
   pip install matplotlib
   echo "...done"
 fi
+
+
+# INSTALL KERAS
+echo "Installing Keras"
+if python3 -c "import keras" > /dev/null 2>&1
+then
+  echo "Keras is already installed"
+else
+  echo "Installing Keras"
+  pip install keras
+  echo "...done"
+fi
+
+# INSTALL scikit-learn (sklearn)
+echo "Installing scikit-learn (sklearn)"
+if python3 -c "import sklearn" > /dev/null 2>&1
+then
+  echo "scikit-learn (sklearn) is already installed"
+else
+  echo "Installing scikit-learn (sklearn)"
+  pip install scikit-learn
+  echo "...done"
+fi
