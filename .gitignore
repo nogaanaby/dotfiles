@@ -25,3 +25,5 @@ vim/bundle/tokyo-metro.vim
 vim/bundle/vim-airline
 vim/bundle/vim-airline-themes
 
+tmux-client*.log
+tmux-server*.log
