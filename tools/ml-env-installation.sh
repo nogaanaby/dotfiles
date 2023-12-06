@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 # should I add cuda drivers? prime select? bitcoin git repo?#
 dir=$1
-backup_dir=$2
+
 
 ########################################################
 # ML libraries
