@@ -30,13 +30,13 @@ fi
 
 
 
-sh ~/.dotfiles/tools/basic-installations.sh $dir $backup_dir
+sh dotfiles/tools/basic-installations.sh $dir $backup_dir
 
 
 read -p "Do you want to install machine learning libraries (TensorFlow, NumPy, Pandas, Matplotlib)? (y/n): " install_ml_libraries
 
 if [ "$install_ml_libraries" = "y" ]; then
-  sh ~/.dotfiles/tools/ml-env-installation.sh $dir 
+  sh dotfiles/tools/ml-env-installation.sh $dir 
 else
   echo "Skipping machine learning library installation." 
 fi
