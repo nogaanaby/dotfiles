@@ -3,7 +3,7 @@
 
 ########## Variables
 
-dir=~/.dotfiles                    # dotfiles directory
+dir=~/dotfiles                    # dotfiles directory
 timestamp=`date +%s`               # use timestamp in backup dir names to keep
 # track of backups
 backup_dir=$dir/backup/$timestamp  # old dotfiles backup directory
