@@ -11,6 +11,8 @@ backup_dir=$dir/backup/$timestamp  # old dotfiles backup directory
 
 # Create Backup dir
 mkdir -p $backup_dir
+sudo apt update
+sudo apt-get upgrade -y
 
 # Backup directory with binaries
 if [ -d ~/bin ]
@@ -42,6 +44,13 @@ else
 fi
 
 
+read -p "Do you want to install cuda? (y/n): " install_cuda
+
+if [ "$install_cuda" = "y" ]; then
+  sh dotfiles/tools/install_cuda.sh $dir 
+else
+  echo "Skipping cuda installation." 
+fi
 
 
 # basic enviroment tools for eny mechine
