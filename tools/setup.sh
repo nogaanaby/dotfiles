@@ -3,7 +3,7 @@
 
 ########## Variables
 
-dir=~/dotfiles                    # dotfiles directory
+dir=~/.dotfiles                    # dotfiles directory
 timestamp=`date +%s`               # use timestamp in backup dir names to keep
 # track of backups
 backup_dir=$dir/backup/$timestamp  # old dotfiles backup directory
@@ -32,13 +32,13 @@ fi
 
 
 
-sh dotfiles/tools/basic-installations.sh $dir $backup_dir
+sh ~/.dotfiles/tools/basic-installations.sh $dir $backup_dir
 
 
 read -p "Do you want to install machine learning libraries (TensorFlow, NumPy, Pandas, Matplotlib)? (y/n): " install_ml_libraries
 
 if [ "$install_ml_libraries" = "y" ]; then
-  sh dotfiles/tools/ml-env-installation.sh $dir 
+  sh ~/.dotfiles/tools/ml-env-installation.sh $dir 
 else
   echo "Skipping machine learning library installation." 
 fi
@@ -47,7 +47,7 @@ fi
 read -p "Do you want to install cuda? (y/n): " install_cuda
 
 if [ "$install_cuda" = "y" ]; then
-  sh dotfiles/tools/install_cuda.sh $dir 
+  sh ~/.dotfiles/tools/install_cuda.sh $dir 
 else
   echo "Skipping cuda installation." 
 fi
