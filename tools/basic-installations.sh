@@ -202,29 +202,29 @@ fi
 
 
 
-########################################################
-# install some more usefull enviroment tools
-########################################################
+# ########################################################
+# # install some more usefull enviroment tools
+# ########################################################
 
 
-# INSTALL PYTHON3
-if command -v python3 > /dev/null 2>&1
-then
-  echo "Python 3 is already installed"
-else
-  echo "Installing Python 3"
-  sudo apt install python3
-  echo "...done"
-fi
+# # INSTALL PYTHON3
+# if command -v python3 > /dev/null 2>&1
+# then
+#   echo "Python 3 is already installed"
+# else
+#   echo "Installing Python 3"
+#   sudo apt install python3
+#   echo "...done"
+# fi
 
-# INSTALL pip
-if command -v pip > /dev/null 2>&1
-then
-  echo "pip is already installed"
-else
-  echo "Installing pip"
-  sudo apt install python3-pip
-  echo "...done"
-fi
+# # INSTALL pip
+# if command -v pip > /dev/null 2>&1
+# then
+#   echo "pip is already installed"
+# else
+#   echo "Installing pip"
+#   sudo apt install python3-pip
+#   echo "...done"
+# fi
 
 

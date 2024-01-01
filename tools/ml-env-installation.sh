@@ -10,17 +10,8 @@ dir=$1
 
 
 # INSTALL TENSORFLOW, NUMPY, AND MATPLOTLIB
-echo "Installing TensorFlow, NumPy, and Matplotlib"
+echo "Installing NumPy, and Matplotlib"
 
-# Check if TensorFlow is installed
-if python3 -c "import tensorflow" > /dev/null 2>&1
-then
-  echo "TensorFlow is already installed"
-else
-  echo "Installing TensorFlow"
-  pip install tensorflow tensorflow-probability
-  echo "...done"
-fi
 
 # Check if NumPy is installed
 if python3 -c "import numpy" > /dev/null 2>&1
@@ -52,16 +43,16 @@ else
 fi
 
 
-# INSTALL KERAS
-echo "Installing Keras"
-if python3 -c "import keras" > /dev/null 2>&1
-then
-  echo "Keras is already installed"
-else
-  echo "Installing Keras"
-  pip install keras
-  echo "...done"
-fi
+# # INSTALL KERAS
+# echo "Installing Keras"
+# if python3 -c "import keras" > /dev/null 2>&1
+# then
+#   echo "Keras is already installed"
+# else
+#   echo "Installing Keras"
+#   pip install keras
+#   echo "...done"
+# fi
 
 # INSTALL scikit-learn (sklearn)
 echo "Installing scikit-learn (sklearn)"
